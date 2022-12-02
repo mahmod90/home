@@ -1,0 +1,132 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.healthBook .header-HB {
+  background-color: aliceblue;
+
+}
+
+.healthBook .header-HB .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* Logo */
+
+.healthBook .header-HB .logo {
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  height: 60px;
+}
+
+/* NavBar */
+.healthBook .header-HB .main-nav {
+  display: flex;
+}
+
+.healthBook .header-HB .main-nav li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: relative;
+  color: black;
+  padding: 0 20px;
+}
+
+.healthBook .header-HB .main-nav li a:hover {
+  color: #f5cb5d;
+}
+
+
+.healthBook .header-HB .left-Box .pic img {
+  width: 100%;
+}
+.content.col-lg-12 {
+  display: flex;
+}
+
+.healthBook .header-HB .left-Box .section {
+  display: flex;
+  /* p.description */
+}
+
+.healthBook .header-HB .left-Box .section img {
+  width: 30%;
+  height: 100px;
+}
+
+.healthBook .header-HB .left-Box .row {
+  flex-wrap: nowrap;
+}
+
+.healthBook .header-HB .left-Box .Box-one .description-1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  padding-top: 15px;
+}
+
+.healthBook .header-HB .left-Box .Box-one .Patient .description {
+  padding: 20px 34px 20px 0;
+  color: #524d44;
+  margin-bottom: 40px;
+}
+
+.healthBook .header-HB .left-Box .Box-one .Patient .btn {
+  padding: 10px 29px;
+  background-color: #f16666;
+  border-color: transparent;
+}
+
+/* Box-Two */
+
+.healthBook .Box-two {
+  background-color: black;
+  color: white;
+  padding: 35px 35px 0 35px;
+
+}
+
+.healthBook .Box-two .Hydrogen {
+  cursor: pointer;
+}
+
+.healthBook .Box-two .Hydrogen .new {
+  color: #f5cb5d;
+}
+
+.healthBook .Box-two .Hydrogen hr {
+  background-color: white;
+}
+
+.healthBook .Box-two .Hydrogen .edit {
+  padding-top: 20px;
+}
+
+.healthBook .Box-two .Hydrogen .edit:hover {
+  color: #f5cb5d;
+}
+
+.healthBook .Box-two .Hydrogen p {
+  padding-bottom: 20px;
+  color: #9d9d9d;
+}
+
+.healthBook .content .section-one {
+  display: flex;
+  margin-top: 30px;
+}
